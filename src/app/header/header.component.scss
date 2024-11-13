@@ -1,0 +1,23 @@
+@import '../../colors';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar__logo{
+        margin-left: 3rem;
+    }
+
+    .navbar__menu{
+        margin-right: 3rem;
+        display: flex;
+        gap: 1rem;
+    
+        .navbar__menu--links{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
